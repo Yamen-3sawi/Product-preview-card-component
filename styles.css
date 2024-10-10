@@ -1,0 +1,57 @@
+body{
+   display: flex;
+   background-color:  rgb(236, 229, 219);
+   margin: 12cap;
+}
+.ad-container {
+    display: flex;
+    flex-direction: row; 
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 12.3px auto;
+}
+h3,p{
+    color: #949090;
+}
+.product-details {
+    padding: 20px;
+    width: 50%;
+}
+
+button {
+    background-color: rgb(3, 63, 1);
+    border-radius: 12px;
+    width: 100%; 
+    padding: 10px; 
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 16px;
+}
+
+img {
+    width: 50%;
+    border-radius: 12px;
+}
+span {
+    display: block;
+    margin-top: 10px;
+}
+
+ins {
+    display: inline-block;
+    color: green;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+del {
+    display: inline-block;
+    color: rgb(150, 155, 165);
+    font-size: 22px;
+    margin-left: 12cap;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
